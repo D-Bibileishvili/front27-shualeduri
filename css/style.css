@@ -254,3 +254,15 @@ h4 {
 .parent1 {
   grid-area: nav;
 }
+
+/* section2 */
+.section2 {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.section-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
