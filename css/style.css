@@ -95,6 +95,8 @@ header {
   display: flex;
   justify-content: space-between;
   padding-left: 25px;
+  margin-top: 87px;
+  margin-bottom: 39px;
 }
 
 .nav-left {
