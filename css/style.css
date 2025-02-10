@@ -319,3 +319,27 @@ h4 {
   color: #222222;
   font-size: 16px;
 }
+
+/* footer icons */
+.icons {
+  max-width: 1231px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 113px;
+  margin-bottom: 20px;
+}
+
+.iconList {
+  max-width: 24px;
+  display: flex;
+  gap: 20px;
+}
+
+.ftrRightSide {
+  display: flex;
+  gap: 5px;
+}
+
+.bolder {
+  font-weight: bolder;
+}
