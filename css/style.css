@@ -239,8 +239,9 @@ h4 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "aside header header header header header"
-    "aside nav nav nav nav nav";
-  /* ". article article article article article"; */
+    "aside nav nav nav nav nav"
+    ". designer designer designer designer designer"
+    ". footer footer footer footer footer";
 }
 
 .aside {
@@ -253,6 +254,14 @@ h4 {
 
 .parent1 {
   grid-area: nav;
+}
+
+.section2 {
+  grid-area: designer;
+}
+
+.footerBox {
+  grid-area: footer;
 }
 
 /* section2 */
