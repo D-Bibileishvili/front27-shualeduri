@@ -113,7 +113,7 @@ header {
   flex-wrap: wrap;
   max-width: 1231px;
   width: 100%;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin: auto;
   font-size: 18px;
 }
@@ -172,7 +172,7 @@ aside {
   max-width: 100%;
   background-color: #222222;
   color: #ffffff;
-  /* position: fixed; */
+  position: fixed;
 }
 
 .aside-head {
@@ -274,4 +274,48 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.designer {
+  max-width: 132px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  margin-top: 54px;
+}
+
+.designers-list {
+  display: flex;
+  margin: auto;
+  gap: 25px;
+  /* width: 100%; */
+}
+
+/* footer */
+.footerBox {
+  max-width: 1231px;
+  width: 100%;
+  margin-top: 144px;
+}
+
+.footerList {
+  display: flex;
+  gap: 100px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.above {
+  padding-bottom: 26px;
+}
+
+.list a {
+  color: #222222;
+  font-size: 16px;
 }
