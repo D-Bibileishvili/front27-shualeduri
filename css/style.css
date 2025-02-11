@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: url("../fonts/fonts/AvenirLTPro-HeavyOblique.ttf");
+}
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("../fonts/fonts/AvenirLTPro-Medium.ttf");
+}
+
+@font-face {
+  font-family: "book";
+  src: url("../fonts/fonts/AvenirLTPro-Book.ttf");
+}
+
+@font-face {
+  font-family: "Avnir-Black";
+  src: url("../fonts/fonts/AvenirLTPro-Black.ttf");
+}
+
+.fontHeavy {
+  font-family: "Avenir-Heavy";
+}
+
+.fontMedium {
+  font-family: "Avenir-Medium";
+}
+
+.fontBook {
+  font-family: "book";
+}
+
+.fontBlack {
+  font-family: "Avnir-Black";
+}
+
 * {
   margin: 0;
   padding: 0;
