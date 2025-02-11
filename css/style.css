@@ -307,6 +307,7 @@ h4 {
 .section2 {
   max-width: 1200px;
   width: 100%;
+  margin: auto;
 }
 
 .section-name {
@@ -332,11 +333,16 @@ h4 {
   /* width: 100%; */
 }
 
+.buttonUp {
+  margin-top: 10px;
+}
+
 /* footer */
 .footerBox {
   max-width: 1231px;
   width: 100%;
-  margin-top: 144px;
+  padding-top: 144px;
+  margin: auto;
 }
 
 .footerList {
