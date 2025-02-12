@@ -460,3 +460,82 @@ h4 {
 .bolder {
   font-weight: bolder;
 }
+
+/* media */
+
+@media (width <= 1024px) {
+  /* aside */
+  .aside-head {
+    gap: 15px;
+  }
+
+  .navList {
+    padding: 15px;
+    gap: 12px;
+  }
+
+  .aside-li {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    gap: 11px;
+  }
+
+  /* header */
+  .point1,
+  .point2 {
+    display: none;
+  }
+
+  .search {
+    gap: 50px;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .goPro {
+    display: none;
+  }
+
+  /* nav-section1 */
+  .section-box {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .nav-left {
+    gap: 25px;
+    margin-left: 20px;
+  }
+  .navi-right {
+    display: none;
+  }
+
+  /* section1-articles */
+  .articles {
+    max-width: 600px;
+  }
+
+  /* section2 */
+  .section2 {
+    max-width: 600px;
+  }
+  .designerUnset {
+    display: none;
+  }
+
+  .designers-list {
+    gap: 13px;
+  }
+
+  /* footer */
+  .footerBox {
+    max-width: 600px;
+  }
+
+  .footerList {
+    gap: 15px;
+  }
+}

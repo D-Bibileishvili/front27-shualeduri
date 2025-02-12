@@ -326,3 +326,59 @@ h4 {
 .footerBox {
   grid-area: footer;
 }
+
+/* media */
+
+@media (width <= 1024px) {
+  /* aside */
+  .aside-head {
+    gap: 15px;
+  }
+
+  .navList {
+    padding: 15px;
+    gap: 12px;
+  }
+
+  .aside-li {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    gap: 11px;
+  }
+
+  /* header */
+  .point1,
+  .point2 {
+    display: none;
+  }
+
+  .search {
+    gap: 50px;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .goPro {
+    display: none;
+  }
+
+  /* table */
+  .parent1 {
+    max-width: 600px;
+  }
+
+  .totalUnset {
+    display: none;
+  }
+
+  /* footer */
+  .footerBox {
+    max-width: 600px;
+  }
+
+  .footerList {
+    gap: 15px;
+  }
+}
