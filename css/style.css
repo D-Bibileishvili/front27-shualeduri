@@ -539,3 +539,117 @@ h4 {
     gap: 15px;
   }
 }
+
+@media (width <= 768px) {
+  /* aside */
+  .aside-head {
+    display: none;
+  }
+
+  .navList a,
+  .asideP,
+  .loadMore {
+    display: none;
+  }
+
+  .aside-list img {
+    padding-right: 15px;
+  }
+
+  .aside-nav {
+    padding-top: 5px;
+  }
+
+  .follow {
+    font-size: 8px;
+    margin-left: 5px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  /* header */
+  .search {
+    display: none;
+  }
+
+  .upload {
+    padding: 9px 20px 10px 18px;
+    font-size: 8px;
+  }
+
+  /* nav-section1 */
+  .section-box {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .nav-left {
+    gap: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  .unsetOn768 {
+    display: none;
+  }
+
+  /* section1-articles */
+  .articles {
+    max-width: 300px;
+  }
+
+  .article-box {
+    max-width: 130px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .ph {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .load {
+    font-size: 12px;
+  }
+
+  /* section2 */
+  .section2 {
+    max-width: 300px;
+  }
+
+  .section-name {
+    font-size: 12px;
+  }
+
+  .unseton768 {
+    display: none;
+  }
+
+  .designers-list {
+    font-size: 10px;
+    gap: 8px;
+  }
+
+  .designers-list button {
+    font-size: 10px;
+  }
+
+  /* footer */
+  .footerBox {
+    max-width: 300px;
+  }
+
+  .list a {
+    font-size: 10px;
+  }
+
+  .unset768px {
+    display: none;
+  }
+
+  .ftrRightSide {
+    font-size: 12px;
+  }
+}
