@@ -130,6 +130,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-left: 25px;
   margin-top: 87px;
   margin-bottom: 39px;
@@ -143,6 +144,18 @@ header {
 .navi-right {
   display: flex;
   gap: 15px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  border-radius: 12px;
+  max-width: 132px;
+  height: 56px;
+  width: 100%;
+}
+
+.navi-btn {
+  border: none;
+  background-color: transparent;
 }
 
 /* section articles */
@@ -197,6 +210,7 @@ header {
 .load {
   font-size: 16px;
   background-color: #f2f2f2;
+  color: #222222;
   border: none;
   padding: 16px 100px;
   display: flex;
@@ -241,6 +255,10 @@ aside {
   max-height: 60px;
   padding: 30px;
   gap: 24px;
+}
+
+.navList a {
+  color: #ffffff;
 }
 
 h4 {
@@ -308,12 +326,17 @@ h4 {
   max-width: 1200px;
   width: 100%;
   margin: auto;
+  background-color: #fafafa;
 }
 
 .section-name {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+}
+.section-name h3 {
+  color: #222222;
 }
 
 .designer {
@@ -322,6 +345,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   row-gap: 10px;
   margin-top: 54px;
 }
@@ -330,11 +354,33 @@ h4 {
   display: flex;
   margin: auto;
   gap: 25px;
+  padding: 50px;
   /* width: 100%; */
 }
 
-.buttonUp {
-  margin-top: 10px;
+.designer button {
+  border: 1px solid #fafafa;
+  background-color: #f2f2f2;
+  max-width: 132px;
+  width: 100%;
+  height: 44px;
+  border-radius: 12px;
+  color: #222222;
+}
+
+.designer button:hover {
+  background-color: #d8d8d8;
+}
+
+.designer h5 {
+  color: #222222;
+}
+
+.designer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 /* footer */

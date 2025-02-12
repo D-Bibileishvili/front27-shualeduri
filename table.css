@@ -156,7 +156,8 @@ tr:hover {
 .footerBox {
   max-width: 1231px;
   width: 100%;
-  margin-top: 144px;
+  padding-top: 144px;
+  margin: auto;
 }
 
 .footerList {
@@ -239,6 +240,9 @@ aside {
   max-height: 60px;
   padding: 30px;
   gap: 24px;
+}
+.navList a {
+  color: #ffffff;
 }
 
 h4 {
