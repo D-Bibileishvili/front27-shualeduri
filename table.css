@@ -111,6 +111,26 @@ header {
   color: #ffffff;
 }
 
+.point1 {
+  width: 8px;
+  height: 8px;
+  background-color: #ff2288;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 106px;
+  margin-bottom: 16px;
+}
+
+.point2 {
+  width: 8px;
+  height: 8px;
+  background-color: #ff2288;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 156px;
+  margin-bottom: 16px;
+}
+
 /* table */
 .parent1 {
   max-width: 1231px;
@@ -232,6 +252,7 @@ aside {
 
 .aside-nav {
   background-color: #222222;
+  padding-top: 40px;
 }
 
 .navList {
@@ -272,6 +293,12 @@ h4 {
   padding-top: 19px;
   font-size: 12px;
   margin-left: 30px;
+  padding-bottom: 10px;
+}
+
+.navList:hover {
+  background-color: #ff2288;
+  border-radius: 14px;
 }
 
 /* grid */
