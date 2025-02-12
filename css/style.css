@@ -546,7 +546,7 @@ h4 {
     display: none;
   }
 
-  .navList a,
+  .unsetHome,
   .asideP,
   .loadMore {
     display: none;
